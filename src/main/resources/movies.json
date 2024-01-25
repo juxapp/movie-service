@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Captain America: Summer Soldier",
+        "slots": [
+            {
+                "date": "2024-05-20",
+                "time": "1345"
+            },
+            {
+                "date": "2024-05-20",
+                "time": "1600"
+            },
+            {
+                "date": "2024-06-01",
+                "time": "2000"
+            }
+        ],
+        "screen": "Standard"
+    },
+    {
+        "name": "Captain America: Summer Soldier",
+        "slots": [
+            {
+                "date": "2024-05-20",
+                "time": "1300"
+            }
+        ],
+        "screen": "IMAX"
+    },
+    {
+        "name": "Mission Impossible: Infinite Possibilities",
+        "slots": [
+            {
+                "date": "2024-05-20",
+                "time": "1000"
+            },
+            {
+                "date": "2024-05-20",
+                "time": "1300"
+            },
+            {
+                "date": "2024-05-21",
+                "time": "1000"
+            },
+            {
+                "date": "2024-05-21",
+                "time": "1300"
+            }
+        ],
+        "screen": "Standard"
+    },
+    {
+        "name": "Batman Kapow! Bam! Sok! Blap!",
+        "slots": [
+            {
+                "date": "2024-05-20",
+                "time": "1000"
+            },
+            {
+                "date": "2024-05-21",
+                "time": "1300"
+            }
+        ],
+        "screen": "Standard"
+    },
+    {
+        "name": "Batman Kapow! Bam! Sok! Blap!",
+        "slots": [
+            {
+                "date": "2024-05-20",
+                "time": "1300"
+            },
+            {
+                "date": "2024-05-21",
+                "time": "1000"
+            },
+            {
+                "date": "2024-05-22",
+                "time": "1400"
+            }
+        ],
+        "screen": "IMAX"
+    }
+]
