@@ -33,7 +33,7 @@ class MovieService(
                     val movieDTO = MovieDTO()
                     movieDTO.name = it.key.first?.name
                     movieDTO.screen = it.key.second?.name
-                    movieDTO.slots = it.value.map { it->SlotDTO(it.time, timeStampToDate(it.date)) }.toList()
+                    movieDTO.slots = it.value.map { it->SlotDTO(time = it.time, date =  timeStampToDate(it.date)) }.toList()
                     movieList.add(movieDTO)
                 }
             }
@@ -61,7 +61,7 @@ class MovieService(
         try {
           if(date!= null){
               val localDateTime: LocalDateTime = date.toLocalDateTime()
-              val format = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-mm-dd"))
+              val format = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
               return format
           }
 
@@ -82,7 +82,7 @@ class MovieService(
                     val movieDTO = MovieDTO()
                     movieDTO.name = it.key.first?.name
                     movieDTO.screen = it.key.second?.name
-                    movieDTO.slots = it.value.map { SlotDTO(it.time, timeStampToDate(it.date)) }.toList()
+                    movieDTO.slots = it.value.map { SlotDTO(time = it.time, date =  timeStampToDate(it.date)) }.toList()
                     movieList.add(movieDTO)
                 }
                 return movieList
